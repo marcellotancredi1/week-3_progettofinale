@@ -1,0 +1,63 @@
+
+
+body{
+    background-color: rgba(78, 114, 48, 0.351);
+    width: 80%;
+    margin: 10rem 20rem;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+}
+
+
+p {
+
+    background-color: rgba(57, 162, 200, 0.33);
+    color:rgba(198, 49, 49, 0.808);
+    margin-bottom: 0.4em ;
+    width: 50%;
+    height: 3em ;
+    padding: 0.7em;  
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    text-align: center; 
+    vertical-align:center;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 50%;         /* ALTRIMENTI SFASA */
+ /*  background-color: rgba(165, 42, 42, 0.214);
+    */  
+    display: grid;
+    grid-row: center;
+    grid-template-rows: repeat(5, 20%);
+    grid-template-columns: repeat(4, 25%); 
+    gap: 0.3em;         /* DA' PROBLEMI, COME RISOLVERE? */
+}
+
+input {
+    background-color: rgba(57, 162, 200, 0.33);
+    text-align: center;
+    vertical-align:center;
+    width: 80%;         /* ALTRIMENTI SFASA */
+    height: 2.5em;
+    border: none;
+    color: rgb(63, 105, 189);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+input[type="button"]:hover {
+    border: 1px double rgba(198, 49, 49, 0.275);
+    color: rgba(255, 255, 255, 0.273);
+    font-size:1.2em;
+}
+
+#container #uguale{
+    background-color: rgba(57, 162, 200, 0.33);
+    text-align: center;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;   
+    width: 400%;            /* ALTRIMENTI SFASA */
+}
+

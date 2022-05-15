@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 - Progetto settimanale/Calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <p> <span id= "risultato"> </span> </p>
+
+    <div id=container>
+        <input type="button" id="numero7" onclick="numeroCalc7('7')" value="7"></input><input type="button" id="numero8" onclick="numeroCalc8('8')"value="8"></input><input type="button" id="numero9" onclick="numeroCalc9('9')"value="9"></input><input type="button" id="divisione" onclick="divisione('/')"value="/"></input>
+        <input type="button" id="numero4" onclick="numeroCalc4('4')" value="4"></input><input type="button" id="numero5" onclick="numeroCalc5('5')"value="5"></input><input type="button" id="numero6" onclick="numeroCalc6('6')"value="6"></input><input type="button" id="moltiplicazione" onclick="moltiplicazione('*')"value="*"></input>
+        <input type="button" id="numero1" onclick="numeroCalc1('1')" value="1"></input><input type="button" id="numero2" onclick="numeroCalc2('2')"value="2"></input><input type="button" id="numero3" onclick="numeroCalc3('3')"value="3"></input><input type="button" id="sottrazione" onclick="sottrazione('-')"value="-"></input>
+        <input type="button" id="numero" onclick="cancella()" value="C"></input><input type="button" id="numero0" onclick="numeroCalc0('0')"value="0"></input><input type="button" id="numeroPunto" onclick="numeroCalcPunto('.')"value="."></input><input type="button" id="somma" onclick="somma('+')"value="+"></input>
+        <input type="button" id="uguale" onclick="uguale('')" value="="></input>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
